@@ -1,0 +1,115 @@
+.tag {
+  display: flex;
+  padding: 3px 4px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 4px;
+  background-color: var(--boton-color, none);
+}
+
+.tag.white { background-color: white; }
+.tag.gris { border: var(--gris-bordes) 1px solid; }
+.tag.verde { background-color: var(--verde); }
+.tag.amarillo { background-color: var(--amarillo); }
+.tag.azul { background-color: var(--azul); }
+.tag.rojo { background-color: var(--rojo); }
+.tag.rayas {
+  border: #a2a2a2 dashed 1px;
+  padding: 2px 4px;
+  background-color: inherit;
+}
+
+.bold { font-weight: 380; }
+
+.borde { border: #1F2937 1px solid; }
+
+.hover-panel {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+
+.list--default {
+  list-style: circle;
+  list-style-position: outside;
+  margin: 0;
+  padding-left: 1rem;
+  
+}
+
+.list--default li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+ /* ESTILO DEL ACORDEON */
+
+.accordion {
+  flex-direction: column;
+}
+
+.btn-accordion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.accordion__icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+
+  & svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  }
+}
+
+.btn-accordion.activo .accordion__icon {
+  transform: rotate(90deg);
+}
+
+.accordion__panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  transition:
+    max-height .40s cubic-bezier(.25,.8,.25,1),
+    opacity .25s ease,
+    transform .25s ease;
+  }
+
+.accordion__panel:not(.hide) {
+  max-height: 1000px;
+  opacity: 1;
+  transform: translateY(-8px);
+  
+}
+
+.accordion__panel.hide {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(0);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+

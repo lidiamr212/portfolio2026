@@ -1,0 +1,25 @@
+
+/* 1. VARIABLES Y CONFIGURACIÓN */
+@import url("./variables.css");
+
+/* 2. RESET Y NORMALIZACIÓN */
+@import url("./reset.css");
+
+/* 3. TIPOGRAFÍA */
+@import url("./typography.css");
+
+/* 4. UTILIDADES */
+@import url("./utilities.css");
+
+/* 5. COMPONENTES */
+@import url("./components.css");
+
+/* 6. LAYOUT */
+@import url("./layout.css");
+
+/* 7. SECCIONES */
+@import url("./sections/hero.css");
+@import url("./sections/info.css");
+@import url("./sections/skills.css");
+@import url("./sections/experiencia.css");
+@import url("./sections/portfolio.css");

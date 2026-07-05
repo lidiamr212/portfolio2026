@@ -1,0 +1,72 @@
+body,
+p,
+li,
+q,
+.label-text,
+.tag,
+.text-xs {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: var(--negro);
+  line-height: 100%;
+}
+
+p,
+li,
+.body {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+h1,
+.t1 {
+  font-size: 2.125rem;
+  font-weight: 450;
+  line-height: 98%;
+  text-align: center;
+}
+
+h2,
+.t2 {
+  font-size: 3.375rem;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 100%;
+}
+
+h3,
+.t3 {
+  font-size: 1.8125rem;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.01rem;
+}
+
+h4,
+h5,
+.t4 {
+  font-size: 1.25rem;
+  font-weight: 380;
+  line-height: 115%;
+  letter-spacing: 0.01rem;
+}
+
+h6,
+.label-text {
+  font-weight: 200;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.text-xs,
+.tag {
+  font-weight: 200;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  line-height: 90%;
+  text-transform: uppercase;
+}

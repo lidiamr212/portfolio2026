@@ -1,0 +1,114 @@
+@scope (#ExperienciaLaboral) {
+  
+  .banner {
+    height: 80px;
+    background-color: var(--verde);
+    padding: 20px;
+  }
+
+  #experience__obs {
+    & button:hover {
+      h5 { 
+        background-color: var(--verde);
+      }
+      & + span { background-color: var(--verde);}
+    }
+  }
+
+  #experience__east {
+    & button:hover {
+      h5 { 
+        background-color: var(--verde);
+      }
+    }
+  }
+
+  .panel {
+    padding-top: 20px;
+    gap: 5px;
+  }
+
+  .accordion {
+
+    & .header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 4px;
+
+      & .time {
+        width: 27%;
+        text-align: left;
+      }
+      & .place {
+        width: 27%;
+      }
+    }
+
+    & button {
+      border-top: 1px solid var(--negro);
+      padding: 12px 1%;
+
+      & .time {
+        width: 25%;
+        text-align: left;
+      }
+
+      & .meta {
+        width: 75%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      & .title {
+        text-align: left;
+        white-space: nowrap;
+        width: 46%;
+        display: flex;
+      }
+
+      & .roles {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        height: 100%;
+      }
+    }
+
+      & .accordion__panel {
+        
+        & div { padding-block: 32px;}
+      }
+    }
+
+ 
+
+ .highlight1:hover { background-color: var(--verde);}
+ .highlight2:hover { background-color: var(--verde);}
+ .highlight3:hover { background-color: var(--verde);}
+ .highlight4:hover { background-color: var(--verde);}
+ .highlight5:hover { background-color: var(--verde);}
+
+
+  @media (max-width: 600px) {
+    
+      .accordion {
+
+         & button {
+          & .meta { 
+            gap: 16px;
+          }
+           & .title {
+            width: fit-content;
+           }
+          
+        }
+
+      }
+
+
+    }
+}

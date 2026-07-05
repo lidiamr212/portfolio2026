@@ -1,0 +1,67 @@
+@scope (#SeleccionProyecto) {
+
+  
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolio__banner {
+    height: 80px;
+    background-color: var(--azul);
+    padding: 24px;
+    align-items: flex-start;
+  }
+
+  .portfolio__gallery {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 32px;
+  }
+
+  .portfolio__gallery img {
+    object-fit: contain;
+    width: 300px;
+    height: auto;
+  }
+
+  .portfolio__card {
+    background-color: white;
+    padding: 32px 24px;
+    border: var(--gris-bordes) 1px solid;
+  }
+
+
+
+  .portfolio__details {
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .imagen-proyectos {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 700px) {
+
+    article { padding-inline: 16px;}
+    .vertical-movil { flex-direction: column; }
+    .portada-exp { padding: 16px; }
+    .tituloybotones { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .anuncio-web { flex-direction: column; }
+    .t4 { line-height: 100%; text-align: center; }
+    .contenedor { gap: 10px; }
+    .imagen { width: 200px; }
+    .hide1 { display: none; }
+    .botones { width: 100%; align-items: flex-start; margin-top: 8px; }
+    .grupo-texto { width: 100%; padding-left: 0; }
+    .Texto-del-proyecto { flex-direction: column; }
+  }
+}
