@@ -75,3 +75,5 @@ https://www.instagram.com/estracurricular/
 📧 hola@estracurricular.com
 
 🌐 https://estracurricular.com
+
+Gracias por leer hassta  aqui <3
