@@ -1,6 +1,7 @@
 #aboutInfo {
 
   & aside {
+  height: fit-content;
   background-color: #efefef;
   position: sticky;
   top: calc(50vh - 250px);
@@ -69,7 +70,7 @@
     width: 12px;
     height: 12px;
     flex-shrink: 0;
-    background: url('../img/icon/carpeta.svg') center / contain no-repeat;
+    background: url('../../img/icon/carpeta.svg') center / contain no-repeat;
     }
   }
 
