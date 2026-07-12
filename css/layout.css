@@ -51,4 +51,5 @@ main {
   .basis33 { flex-basis: 100% !important; }
   .basis66 { flex-basis: 100% !important; }
   .centerMoblie { justify-content: center; align-items: center; }
+  .marginMoblie { padding-inline: 16px; }
 }

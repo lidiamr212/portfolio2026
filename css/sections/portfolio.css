@@ -4,12 +4,38 @@ html {
   scroll-behavior: smooth;
 }
 
-#hero, #aboutInfo
+#hero, #aboutInfo, #carteles, #footer
  {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
+#carteles{
 
+  .banner {
+    height: 80px;
+    background-color: var(--azul);
+    padding: 20px;
+  }
+
+  .linkIG {
+    justify-content: left;
+    padding-bottom: 32px ;
+    a {background-color: white;
+       svg { margin-left: 8px; }
+      }
+  }
+}
+
+
+.gallery {
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  img {
+  width: 350px;
+  }
+}
 
 #portfolio .navbar {
   position: sticky; 
@@ -147,13 +173,14 @@ html {
   height: 60px;
   display: flex;
   align-items: start;           
-  justify-content: space-between;
+  gap:16px;
   padding: 24px 32px;
   
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .linkIG {max-width: 450px;}
   .project-container {
     grid-template-columns: 1fr;  
   }

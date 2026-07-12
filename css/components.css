@@ -9,7 +9,7 @@
 }
 
 .tag.white { background-color: white; }
-.tag.gris { border: var(--gris-bordes) 1px solid; }
+.tag.gris { border: var(--gris-bordes) 1px solid; width: fit-content; }
 .tag.verde { background-color: var(--verde); }
 .tag.amarillo { background-color: var(--amarillo); }
 .tag.azul { background-color: var(--azul); }

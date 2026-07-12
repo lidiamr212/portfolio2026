@@ -57,8 +57,8 @@ if (typeof projectsData === 'undefined') {
           `).join('')}
 
           <div class="project-action-row">
-            <a href="${project.nextLink}" class="label-text btn-portfolio"><mark class="u-markVerde">[ Ver la galería completa ]</mark>
-            <svg width="14" height="14" viewBox="0 0 17 17" fill="none"">
+            <a href="${project.nextLink}" class="text-xs btn-portfolio"><mark class="u-markVerde">[ Ver la galería completa ]</mark>
+            <svg width="12" height="12" viewBox="0 0 17 17" fill="none"" style="transform: translateY(2px)">
               <path d="M2.25414 14.2072L15.1341 1.34655M1.25 1.25H15.25V15.25" stroke="#1E1E1C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
             </svg>
             </a>

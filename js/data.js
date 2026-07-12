@@ -30,7 +30,7 @@ const projectsData = [
     year: "2026",
     role: ["UI Design", "Maquetación", "Identidad", "Content Writing"],
     app: ["FIGMA", "illustrator", "REACT", "visual code"],
-    nextLink:"calima.html",
+    nextLink:"construccion.html",
     content: {
       introduction: [
         "Diseño web y desarrollo de marca para Calima, una ONG valenciana centrada en la defensa de los derechos de la comunidad saharaui.",
@@ -52,7 +52,7 @@ const projectsData = [
     year: "en desarollo",
     role: ["UI Design", "system", "Storytelling", "Content Writing"],
     app: ["FIGMA", "REACT", "visual code"],
-    nextLink:"ecos.html",
+    nextLink:"cosntruccion.html",
     content: {
       introduction: [
         "Diseño de una web para dar visibilidad al trabajo de Ecos del Cárcabo, una empresa familiar dedicada a la explotación agrícola y turística en Cieza",
@@ -112,25 +112,4 @@ const projectsData = [
       { alt: 'Proyecto 2 - Detalle 03', src: '../img/abbey/abbey-03.png' }
     ]
   },
-  {
-    id: "06",
-    title: "Marina Trducciones",
-    year: "2026",
-    role: ["UI Design", "system", "Storytelling", "Content Writing"],
-    app: ["FIGMA", "REACT"],
-    content: {
-      introduction: [
-        "Diseño y desarrollo de una landing page para Marina, traductora profesional con cinco años de experiencia. Una web directa y funcional, concebida para facilitar el acceso a sus servicios y navegar entre idiomas de forma inmediata. Sin complicaciones, directa al grano y perfecta para lucir la calidad de su trabajo sin necesidad de subir nada",
-        "Desarrollada con Tailwind CSS, el proyecto abarca la estructura de contenidos, la maquetación responsive, la ilustración y la animación, dando como resultado una interfaz coherente, accesible y consistente."
-      ],
-      complementary: [
-        ""
-      ]
-    },
-    images: [
-      { alt: 'Proyecto 2 - Captura 01', src: '../img/calima/calima-01.png' },
-      { alt: 'Proyecto 2 - Captura 07', src: './img/calima/calima-02.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: '../img/calima/calima-03.png' }
-    ]
-  }
 ];

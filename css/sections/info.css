@@ -1,5 +1,7 @@
 #aboutInfo {
 
+  padding-bottom: 100px;
+
   & aside {
   height: fit-content;
   background-color: #efefef;
@@ -11,6 +13,7 @@
   align-self: flex-start;
   gap: 16px;
   border: 1px solid #e8e8e8;;
+  
 
     & .contImg{
       align-items: end;

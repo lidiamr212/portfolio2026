@@ -1,0 +1,47 @@
+
+#costruccion{
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 100px;
+  background-color: var(--azul-claro);
+
+  .contenido {
+    margin: auto;
+    background-color: white;
+    max-width: 500px;
+    padding: 40px 30px;
+    border-radius: 16px;
+    border: solid 1px #334155;
+  }
+
+  .icono {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  /* Barra de progreso decorativa animada */
+  .linea-progreso {
+    width: 100%;
+    height: 6px;
+    background-color: #334155;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  .progreso {
+    width: 60%; /* Simula el porcentaje actual */
+    height: 100%;
+    background-color: var(--azul); /* Color azul celeste brillante */
+    border-radius: 3px;
+    position: relative;
+    animation: carga 2s ease-in-out infinite alternate;
+  }
+
+}
+
+/* Animacion sutil */
+@keyframes carga {
+  0% { transform: scaleX(0.9); opacity: 0.8; }
+  100% { transform: scaleX(1.1); opacity: 1; }
+}
