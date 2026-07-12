@@ -25,7 +25,7 @@ if (typeof projectsData === 'undefined') {
               <h2>${project.title}</h2>
               <div class="project-meta">
                 <p class="label-text">[ Programas:
-                ${project.app.map(t => `<span class="label-text">${t}</span>`).join(', ')} ]</p>
+                ${project.app.map(t => `<span class="label-text" style="white-space: wrap">${t}</span>`).join(', ')} ]</p>
                </div>
 
                
@@ -37,8 +37,8 @@ if (typeof projectsData === 'undefined') {
                 </div>
                 
             </div>
-            <div class="content-section">
-                <div class="text1">
+            <div class="content-section m-mg-32">
+                <div class="text1 ">
                 <h4 class="label-text u-markAzul">[Info]</h4>
                 ${project.content.introduction.map(p => `<p>${p}</p>`).join('')}
                 </div>

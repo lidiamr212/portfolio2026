@@ -47,6 +47,7 @@ main {
 .basis66 { flex-basis: 67% !important; }
 
 @media (max-width: 600px) {
+   
   .rowDesk { flex-direction: column !important; }
   .basis33 { flex-basis: 100% !important; }
   .basis66 { flex-basis: 100% !important; }

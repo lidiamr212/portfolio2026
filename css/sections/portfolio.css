@@ -4,6 +4,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 #hero, #aboutInfo, #carteles, #footer
  {
   scroll-snap-align: start;
@@ -37,7 +39,10 @@ html {
   }
 }
 
-#portfolio .navbar {
+
+#portfolio {
+width: 100vw;
+.navbar {
   position: sticky; 
   top: 0;
   left: 0;
@@ -54,7 +59,7 @@ html {
   align-items: center;
 }
 
-
+}
 #portfolio-container {
   width: 100%;
   height: auto;
@@ -180,6 +185,11 @@ html {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
+  html { 
+    scroll-snap-type:none;
+  }
+  
   .linkIG {max-width: 450px;}
   .project-container {
     grid-template-columns: 1fr;  
@@ -187,11 +197,11 @@ html {
   .text-viewport {
     position: relative;
     height: auto;
-    padding: 40px 24px;
+    padding: 40px 0px;
   }
   .image-snap-row {
     height: auto;
-    padding: 24px 16px;
+    padding: 24px 0px;
   }
   .image-card {
     width: 100%;
@@ -252,3 +262,19 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+
+  .project-section {
+   padding-inline: 16px;
+   }
+  .project-footer {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+    & .email {
+      font-size: 1.5rem;
+      }
+  }
+}

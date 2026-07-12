@@ -109,7 +109,7 @@
     text-align: left;
 }
 
-.u-hide { display: block !important; }
+.u-hide { display: flex !important; }
 .u-hideDesk { display: none !important; }
 
 @media (max-width: 600px) {
