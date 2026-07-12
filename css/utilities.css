@@ -31,7 +31,7 @@
 .u-gap-80 { gap: 5rem; }
 
 .u-mark { display: inline; background-color: white; }
-.u-markAzul { display: inline; background-color: var(--azul); }
+.u-markAzul { display: inline; background-color: var(--azul); width: fit-content;  }
 .u-markVerde { display: inline; background-color: var(--verde); }
 
 .u-flecha {
