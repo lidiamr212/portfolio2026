@@ -18,9 +18,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'SLIDER 1', src: '../img/slides/rice-1.png' },
-      { alt: 'SLIDER 2', src: '../img/slides/rice-2.png' },
-      { alt: 'SLIDER 3', src: '../img/slides/rice-3.png' }, 
+      { alt: 'SLIDER 1', src: './img/slides/rice-1.png' },
+      { alt: 'SLIDER 2', src: './img/slides/rice-2.png' },
+      { alt: 'SLIDER 3', src: './img/slides/rice-3.png' }, 
     
     ]
   },
@@ -41,9 +41,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: '../img/calima/calima-01.png' },
+      { alt: 'Proyecto 2 - Captura 01', src: './img/calima/calima-01.png' },
       { alt: 'Proyecto 2 - Captura 07', src: './img/calima/calima-02.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: '../img/calima/calima-03.png' }
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/calima/calima-03.png' }
     ]
   },
   {
@@ -63,9 +63,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: '../img/ecos/ecos-01.jpg' },
+      { alt: 'Proyecto 2 - Captura 01', src: './img/ecos/ecos-01.jpg' },
       { alt: 'Proyecto 2 - Captura 07', src: './img/ecos/ecos-02.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: '../img/ecos/ecos-03.png' }
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/ecos/ecos-03.png' }
     ]
   },
   {
@@ -85,9 +85,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: '../img/pesca/pesca-00.png' },
+      { alt: 'Proyecto 2 - Captura 01', src: './img/pesca/pesca-00.png' },
       { alt: 'Proyecto 2 - Captura 07', src: './img/pesca/pesca-01.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: '../img/pesca/pesca-0b.png' }
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/pesca/pesca-0b.png' }
     ]
   },
   {
@@ -107,9 +107,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: '../img/abbey/abbey-01.png' },
+      { alt: 'Proyecto 2 - Captura 01', src: './img/abbey/abbey-01.png' },
       { alt: 'Proyecto 2 - Captura 07', src: './img/abbey/abbey-02.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: '../img/abbey/abbey-03.png' }
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/abbey/abbey-03.png' }
     ]
   },
 ];
