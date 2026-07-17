@@ -65,7 +65,7 @@ const projectsData = [
     images: [
       { alt: 'Proyecto 2 - Captura 01', src: './img/ecos/ecos-01.png' },
       { alt: 'Proyecto 2 - Captura 07', src: './img/ecos/ecos-02.jpg' },
-      { alt: 'Proyecto 2 - Detalle 03', src: './img/ecos/ecos-03.png' }
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/ecos/ecos-03.jpg' }
     ]
   },
   {
