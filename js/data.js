@@ -30,7 +30,7 @@ const projectsData = [
     year: "2026",
     role: ["UI Design", "Maquetación", "Identidad", "Content Writing"],
     app: ["FIGMA", "illustrator", "REACT", "visual code"],
-    nextLink:"construccion.html",
+    nextLink:"calima.html",
     content: {
       introduction: [
         "Diseño web y desarrollo de marca para Calima, una ONG valenciana centrada en la defensa de los derechos de la comunidad saharaui.",
@@ -63,8 +63,8 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: './img/ecos/ecos-01.jpg' },
-      { alt: 'Proyecto 2 - Captura 07', src: './img/ecos/ecos-02.png' },
+      { alt: 'Proyecto 2 - Captura 01', src: './img/ecos/ecos-01.png' },
+      { alt: 'Proyecto 2 - Captura 07', src: './img/ecos/ecos-02.jpg' },
       { alt: 'Proyecto 2 - Detalle 03', src: './img/ecos/ecos-03.png' }
     ]
   },
@@ -85,9 +85,9 @@ const projectsData = [
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: './img/pesca/pesca-00.png' },
-      { alt: 'Proyecto 2 - Captura 07', src: './img/pesca/pesca-01.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: './img/pesca/pesca-0b.png' }
+      { alt: 'Post de IG', src: './img/pesca/pesca-00.jpg' },
+      { alt: 'Cartel del evento', src: './img/pesca/pesca-0b.jpg' },
+      { alt: 'Capturas de diapositivas', src: './img/pesca/pesca-01.png' }
     ]
   },
   {
