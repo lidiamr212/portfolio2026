@@ -9,12 +9,12 @@ const projectsData = [
     nextLink:"rice.html",
     content: {
       introduction: [
-        "Estrucutración y diseño de presentaciones corporativas estratégicas, transformando información compleja en propuestas visuales claras, ordenadas y alineadas con la identidad del estudio.",
-        "Busco que la comunicación de RICE con sus clientes sea lo más clara, profesional y atractiva posible."
+        "Estructura y diseño de presentaciones corporativas enfocadas en clarificar la propuesta de valor y sostener la toma de decisiones.",
+        "La creación de un sistema visual coherente permitió diseñar presentaciones claras, ordenadas y alineadas con la identidad de RICE, favoreciendo una comunicación más efectiva, profesional y accesible con sus clientes."
       ],
       complementary: [
-        "De forma paralela, colaboro puntualmente en el área de producción gráfica, desarrollando desde material publicitario y editorial hasta el diseño de interfaces web (UI).",
-        "En cada una de estas piezas, priorizo la coherencia de marca, cuidando minuciosamente los detalles tipográficos."
+        "De forma paralela, colaboré de manera puntual en el área de producción gráfica, participando en el desarrollo de materiales publicitarios e interfaces web (UI).",
+        "Esta diversidad de proyectos me permitió aplicar un mismo criterio de diseño, basado en la coherencia de marca y el cuidado de la tipografía y los detalles."
       ]
     },
     images: [
@@ -33,11 +33,11 @@ const projectsData = [
     nextLink:"calima.html",
     content: {
       introduction: [
-        "Diseño web y desarrollo de marca para Calima, una ONG valenciana centrada en la defensa de los derechos de la comunidad saharaui.",
-        "A partir del contenido proporcionado, desarrollé un sistema de jerarquización y estructuración orientado a mejorar la legibilidad y la navegación mediante flujos claros y una organización de contenidos. Era importante que el usuario comprendiera rápidamente la propuesta de valor y acceder a la información de manera intuitiva."
+        "Diseño web y desarrollo de marca para Calima, una ONG centrada en la defensa de los derechos de la comunidad saharaui.",
+        "A través de la jerarquización y estructuración del contenido, se articularon flujos de navegación claros e intuitivos que permiten al usuario comprender rápidamente la propuesta de valor y acceder a la información sin fricción."
       ],
       complementary: [
-        "A nivel visual, el diseño refuerza el carácter crítico y el posicionamiento de la asociación, cuidando la coherencia tipográfica, cromática y compositiva en cada detalle. El objetivo es construir una plataforma que no solo informe, sino que también conecte, genere impacto y acompañe al usuario hacia la acción."
+        "La expresividad del color y una tipografía con carácter consolidan el posicionamiento de la marca. El resultado es una plataforma visualmente sólida que trasciende lo informativo para conectar, posicionar y movilizar."
       ]
     },
     images: [
@@ -50,16 +50,16 @@ const projectsData = [
     id: "03",
     title: "Ecos del carcabo",
     year: "en desarollo",
-    role: ["UI Design", "system", "Storytelling", "Content Writing"],
+    role: ["Branding", "logo","UI Design", "packaging", "ilustración", "system", "Storytelling", "Content Writing"],
     app: ["FIGMA", "REACT", "visual code"],
     nextLink:"cosntruccion.html",
     content: {
       introduction: [
-        "Diseño de una web para dar visibilidad al trabajo de Ecos del Cárcabo, una empresa familiar dedicada a la explotación agrícola y turística en Cieza",
-        "Detrás de cada pantalla hay un proceso de arquitectura de contenidos, diseño y copywriting pensado para construir un relato cercano, maduro y con identidad"
+        "Desarrollo de identidad de marca, piezas gráficas y diseño web para Ecos del Cárcabo, una empresa familiar dedicada a la explotación agrícola y turística en Cieza.",
+        "Inspirado en la relación simbiótica entre el ser humano y la naturaleza, el universo visual combina elementos técnicos con trazos orgánicos. Este concepto articula el relato de marca, aplicándose de forma coherente en el diseño de carteles, el etiquetado de producto y la arquitectura de contenidos."
       ],
       complementary: [
-        "Actualmente el proyecto se está desarrollando en React. Mi trabajo ha incluido la maquetación de la interfaz y la modificación de componentes en código para ajustar y pulir el diseño, cuidando cada detalle visual y garantizando la coherencia del sistema a lo largo de toda la web."
+        "Actualmente la web esta en fase de desarrollo con React, el proceso incluye la maquetación de la interfaz y la adaptación de componentes en código, garantizando la fidelidad visual, el detalle y la solidez del sistema."
       ]
     },
     images: [
@@ -99,17 +99,17 @@ const projectsData = [
     nextLink:"abbey.html",
     content: {
       introduction: [
-        "Este proyecto editorial da forma a un poemario que reinterpreta tres de los grandes temas universales de la literatura —el amor, la vida y la muerte— desde una mirada íntima y contemporánea.",
-        "Mi aportación al proyecto abarcó la maquetación completa y el diseño de la portada, concebida como una pieza visual coherente con el universo poético del libro."
+        "Diseño de portada y maquetación editorial para un poemario contemporáneo centrado en tres grandes ejes universales: el amor, la vida y la muerte.",
+        "A través de la combinación de collage e ilustración lineal, se articuló una gráfica visualmente sólida que dialoga de forma fluida con las fotografías analógicas de la autora, integrando texto e imagen en una misma narrativa visual."
       ],
       complementary: [
-        "Para ello combiné técnicas de collage e ilustración lineal, generando una armonía gráfica que dialoga con las ilustraciones y las fotografías analógicas tomadas por la autora durante sus viajes, integrando texto e imagen en una misma narrativa sensorial."
+        "La cuidada jerarquía tipográfica y el ritmo visual garantizan la coherencia del sistema, construyendo un objeto editorial sólido que acompaña y eleva la lectura del texto."
       ]
     },
     images: [
-      { alt: 'Proyecto 2 - Captura 01', src: './img/abbey/abbey-01.png' },
-      { alt: 'Proyecto 2 - Captura 07', src: './img/abbey/abbey-02.png' },
-      { alt: 'Proyecto 2 - Detalle 03', src: './img/abbey/abbey-03.png' }
+      { alt: 'Proyecto 2 - Captura 01', src: './img/abbey/abbey-01.jpg' },
+      { alt: 'Proyecto 2 - Captura 07', src: './img/abbey/abbey-01a.jpg' },
+      { alt: 'Proyecto 2 - Detalle 03', src: './img/abbey/abbey-01b.jpg' }
     ]
   },
 ];
